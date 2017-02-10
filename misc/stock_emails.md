@@ -1,4 +1,4 @@
-Here you'll find a stockpile of templated responses to inquiries we frequently receive about Mozilla L10n. They've been centralized here so that you can simply copy and paste them into emails. While there is value to having these stock responses for common inquiries, we strongly feel that there is equal value to making them as personalized has possible. Take time to adjust the template in your email to include personlized information.
+Here you'll find a stockpile of templated responses to inquiries we frequently receive about Mozilla L10n. They've been centralized here so that you can simply copy and paste them into emails. While there is value to having these stock responses for common inquiries, we strongly feel that there is equal value to making them as personalized as possible. Take time to adjust the template in your email to include personlized information.
 
 #Inquiries about joining Mozilla L10n
 ##General inquiry
@@ -17,7 +17,7 @@ Looking forward to hearing from you,
 
 [name]
 
-###Follow up to general inquiry
+##Follow up to general inquiry
 We're very excited to have you join the Mozilla localization (l10n) effort! Your skills and dedication will be very valuable to your l10n team.
 
 Next step, follow the steps outline on http://wiki.mozilla.org/L10n:Contribute. When you contact your l10n team, please CC me on that email so that I can help to make sure you receive a prompt response.
@@ -34,35 +34,33 @@ Mozilla.org is usually the first place a user visits when they want to download 
 Here's how you can get started:
 
 * Create an account on [Pontoon](https://pontoon.mozilla.org/teams).
-* Check our list of existing [L10n teams](https://pontoon.mozilla.org/teams) to see if an effort for your locale already exists. If an effort exists, contact the team manager to join the team and help drive the effort. If it doesn't exist, introduce your new L10n team on the [new locales newsgroup](http://groups.google.com/group/mozilla.dev.l10n.new-locales).
-* Introduce yourself to the L10n community on the [L10n newsgroup](http://groups.google.com/group/mozilla.dev.l10n.new-locales) by subscribing and posting an introduction. In your introduction, please add some brief information about yourself e.g., professional background, interests, etc.) and what you hope to work on (e.g., "I saw that there was xx-XX localization team and I'd like to help them out.").
+* Check our list of existing [L10n teams](https://pontoon.mozilla.org/teams) to see if an effort for your locale already exists. If an effort exists, contact the team manager to join the team and help drive the effort. If it doesn't exist, introduce your new L10n team on the [new locales newsgroup](https://groups.google.com/group/mozilla.dev.l10n.new-locales).
+* Introduce yourself to the L10n community on the [L10n newsgroup](https://groups.google.com/group/mozilla.dev.l10n.new-locales) by subscribing and posting an introduction. In your introduction, please add some brief information about yourself (e.g., professional background, interests, etc.) and what you hope to work on (e.g., "I saw that there was xx-XX localization team and I'd like to help them out.").
 * Visit [L10n process doc](https://wiki.mozilla.org/L10n:Localization_Process) to become familiar with how we localize.
 
-For general information on the Mozilla localization program, visit our [wiki home page](https://wiki.mozilla.org/L10n). You're also welcome to read through and post to  [the localization discussion newsgroup](http://groups.google.com/group/mozilla.dev.l10n/topics). 
+For general information on the Mozilla localization program, visit our [wiki home page](https://wiki.mozilla.org/L10n). You're also welcome to read through and post to  [the localization discussion newsgroup](https://groups.google.com/group/mozilla.dev.l10n/topics). 
 Hope to see more from you soon!
 
 ##Localizing Thunderbird
 We're glad to see you're interested in localizing Thunderbird. Unfortunately, this is not a project for which Mozilla manages localizations. Please contact [the Thunderbird Council](mailto:thunderbird-council@mozilla.org) to get started.
 
-#Having problems with Pontoon/Pootle
-Sorry to hear that you're having problems with your L10n tool. Please do the following to allow us to troubleshoot your problem(s):
+#Having problems with Pontoon
+Sorry to hear that you're having problems with Pontoon. Please do the following to allow us to troubleshoot your problem(s):
 
-* Search bugzilla to see if a bug has already been filed for your problem(s).
-* Check the newsgroups (specifically [mozilla.dev.l10n](http://groups.google.com/group/mozilla.dev.l10n), [dev.l10n.new-locales](http://groups.google.com/group/mozilla.dev.l10n.new-locales), and [mozilla.tools.l10n](http://groups.google.com/group/mozilla.tools.l10n)) to see if anyone else has had the same problem.
+* Search Bugzilla to see if a bug has already been filed for your problem(s).
+* Check the newsgroups (specifically [mozilla.dev.l10n](https://groups.google.com/group/mozilla.dev.l10n), [dev.l10n.new-locales](https://groups.google.com/group/mozilla.dev.l10n.new-locales), and [mozilla.tools.l10n](https://groups.google.com/group/mozilla.tools.l10n)) to see if anyone else has had the same problem.
 * If you can't find a discussion thread about your problem, begin a discussion topic in those newsgroups asking for help. Include as much detail as possible.
-* If no one in the discussion group can offer a solution and there are no bugs currently filed, file a new bug providing as many details about the problem as possible.
+* If no one in the discussion group can offer a solution and there are no bugs currently filed, file a new bug [here](https://bugzilla.mozilla.org/enter_bug.cgi?assigned_to=nobody%40mozilla.org&bug_file_loc=http%3A%2F%2F&bug_ignored=0&bug_severity=normal&bug_status=NEW&cf_fx_iteration=---&cf_fx_points=---&cf_status_firefox51=---&cf_status_firefox52=---&cf_status_firefox53=---&cf_status_firefox54=---&cf_status_firefox_esr45=---&cf_status_firefox_esr52=---&cf_tracking_firefox51=---&cf_tracking_firefox52=---&cf_tracking_firefox53=---&cf_tracking_firefox54=---&cf_tracking_firefox_esr45=---&cf_tracking_firefox_esr52=---&cf_tracking_firefox_relnote=---&component=Pontoon&contenttypemethod=autodetect&contenttypeselection=text%2Fplain&defined_groups=1&flag_type-4=X&flag_type-607=X&flag_type-800=X&flag_type-803=X&form_name=enter_bug&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Unspecified&priority=--&product=Webtools&rep_platform=Unspecified&target_milestone=---&version=Trunk) providing as many details about the problem as possible.
 
 If the first three steps don't solve your problem and you have to file a bug, rest assured that the Mozilla l10n-drivers will respond promptly.
 
 #Having problems with hg repositories
 Sorry to hear that you're having problems with hg. Please do the following to allow us to troubleshoot your problem(s):
 
-* Search bugzilla to see if a bug has already been filed for your problem(s).
-* Check the newsgroups (specifically [mozilla.dev.l10n](http://groups.google.com/group/mozilla.dev.l10n), [dev.l10n.new-locales](http://groups.google.com/group/mozilla.dev.l10n.new-locales), and [mozilla.tools.l10n](http://groups.google.com/group/mozilla.tools.l10n)) to see if anyone else has had the same problem.
+* Check the newsgroups (specifically [mozilla.dev.l10n](https://groups.google.com/group/mozilla.dev.l10n), [dev.l10n.new-locales](https://groups.google.com/group/mozilla.dev.l10n.new-locales), and [mozilla.tools.l10n](https://groups.google.com/group/mozilla.tools.l10n)) to see if anyone else has had the same problem.
 * If you can't find a discussion thread about your problem, begin a discussion topic in those newsgroups asking for help. Include as much detail as possible.
-* If no one in the discussion group can offer a solution and there are no bugs currently filed, file a new bug providing as many details about the  problem as possible.
 
-If  the first three steps don't solve your problem and you have to file a bug, rest assured that the L10n drivers will respond promptly.
+If the first three steps don't solve your problem and you have to file a bug, rest assured that the L10n drivers will respond promptly.
 
 #Update your team wiki page
 Subject: [locale code]Please update [locale name] wiki page
