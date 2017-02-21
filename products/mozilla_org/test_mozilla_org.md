@@ -3,20 +3,20 @@
 Mozilla.org is highly visible because the site houses the basic info of all Mozilla produced products, conveys Mozilla’s mission, vision and values it stands for. Additionally, it promotes initiatives and campaigns in time of these events. As a result, new pages are created. New content is added to existing pages. New layout is introduced. The localized versions reach 60% of the Mozilla users globally. It is very important that, not only the main pages are localized, they are thoroughly tested before they are launched on production.  
 
 ## Key Links
-* Production: https://www.mozilla.org/(locale)/
-* Staging: https://www-dev.allizom.org/(locale)/
-* Repository:  https://github.com/mozilla-l10n/www.mozilla.org/{local code}/{project name}/{sub pages}
-* Pontoon: https://pontoon.mozilla.org/(local code)/mozillaorg/{project name}/{sub pages}
-* Locamotion: https://mozilla.locamotion.org/{locale code}/mozilla_lang/{project name}/{sub pages}
-* Web dashboard: https://l10n.mozilla-community.org/webdashboard/{local code}. Visit this page on a regular basis to check localization progress, pending work, deadline, and errors that were introduced during translation. 
+* Production: https://www.mozilla.org/%LOCALE%/
+* Staging: https://www-dev.allizom.org/%LOCALE%/
+* Repository:  https://github.com/mozilla-l10n/www.mozilla.org/%LOCALE%/{project_name}/{sub_pages}
+* Pontoon: https://pontoon.mozilla.org/%LOCALE%/mozillaorg/{project_name}/{sub_pages}
+* Locamotion: https://mozilla.locamotion.org/%LOCALE%/mozilla_lang/{project_name}/{sub_pages}
+* Web dashboard: https://l10n.mozilla-community.org/webdashboard/%LOCALE%. Visit this page on a regular basis to check localization progress, pending work, deadline, and errors that were introduced during translation. 
 
-We highly advise you to ask other community members to conduct peer review not only on Pontoon or Locamotion, but on staging While not all the languages are required for certain projects, each community can opt in the projects at a later time.
+We highly advise you to ask other community members to conduct peer review not only on Pontoon or Locamotion, but on staging, even after it has landed on production. Wile not all the languages are required for certain projects, each community can opt in the projects at a later time.
 
 ## What to test:
 
-### Pre-l10n test
-* Have your [glossary]((https://transvision.mozfr.org/) available as a reference, select mozilla.org as Repository, your language as your Target Locale.
-* Associate the page with a product or site if it is localized. (e.g.: Firefox, Test Pilot).
+### Before Testing
+* Have your [glossary]((https://transvision.mozfr.org/) available as a reference, select mozilla.org as Repository, your language as your Target Locale
+* Associate the page with a product or site if it is localized. (e.g.: Firefox, Test Pilot)
 * Have the matching US page up as reference, though some strings may not be identical due to A/B testing
 * Have the project you just localized available for editing (Pontoon or Locamotion)
 
@@ -30,7 +30,7 @@ We highly advise you to ask other community members to conduct peer review not o
 * Brand names remain in English
 * Product names comply to Mozilla guideline and adhere to what the community has agreed to
 * No corrupted characters
-* Click on the links on the page, which should take you to the pages of the same language if they are localized?
+* Click on the links on the page, which should take you to the pages of the same language if they are localized
 * Nav bar terms consistent with the page titles they are linked to 
 * Footer links don’t overlap with one another
 
@@ -45,6 +45,7 @@ You can make linguistic changes directly in Pontoon, Locamotion or github.
 * Sorting order of languages in dropdown list
 * In RTL (right to left languages), both target language and English flows in the correct directions.  The mirroring effect is correct as defined by Mozilla UX team.  Indentation and alignment are correct.
 
+If you idenfity bugs during functionality testing, do file a bug either against mozilla.org product.  
 
 ## Testing for Fundraising Campaigns: 
 The annual fundraise campaign is localized in many languages, but not all languages. 
@@ -55,10 +56,10 @@ The annual fundraise campaign is localized in many languages, but not all langua
 * Payment system available for the targeted country
 * Country list in your language and order
 
-## Compatibility testing:
-* Test the page layout in other major browsers and on other platform
-* Test the page layout on the leading home grown browser if available.
-* Test the page layout on mobile devices of major platforms
+## Compatibility Testing:
+* Page layout in other major browsers on major platforms
+* Page layout on the leading home grown browser if available
+* Page layout on mobile devices on major platforms
 
 ## When Can I See the Localized Page on Production? 
 
